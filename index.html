@@ -73,6 +73,27 @@
       max-width: 300px;
       border-radius: 8px;
     }
+
+    .product-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .product {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .product h3 {
+      margin-bottom: 0.5rem;
+      color: #003cff;
+    }
+    .product p {
+      font-size: 0.95rem;
+    }
     .whatsapp-button {
       position: fixed;
       bottom: 20px;
@@ -93,6 +114,11 @@
     iframe {
       max-width: 100%;
       border: none;
+    }
+    .slides-container {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -117,6 +143,37 @@
     <div class="photo-gallery">
       <img src="photo1.jpg" alt="Foto 1" />
       <img src="photo2.jpg" alt="Foto 2" />
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Tentang Retali</h2>
+    <p><strong>PT. Retali Mustajab Travel</strong> adalah perusahaan travel umrah, haji prioritas, dan wisata halal yang telah melayani jamaah Indonesia sejak tahun 2015. Retali hadir dengan niat mulia untuk membantu masyarakat muslim Indonesia mewujudkan impian beribadah ke tanah suci dengan amanah, biaya terjangkau, dan layanan sesuai tuntunan Al-Qur’an dan As-Sunnah.</p></br>
+    <p>Visi Retali adalah <em>membantu para tamu Allah</em> melaksanakan ibadah umrah dan haji dengan pelayanan terbaik. Misi yang diemban mencakup penyediaan paket umrah, haji, dan wisata halal yang ekonomis, tetap khidmat, serta menghadirkan kenyamanan: hotel nyaman dan dekat, transportasi resmi, katering menu sesuai selera jamaah Indonesia, serta bimbingan dari ustadz dan tour leader berpengalaman.</p></br>
+    <p>Sejak berdiri hingga 2024, Retali telah memberangkatkan lebih dari <strong>11.000 jamaah</strong> dan terus berkembang dengan cabang di berbagai kota di Indonesia. Retali juga mengutamakan <strong>kepastian keberangkatan</strong>, fasilitas unggulan, dan komitmen untuk menjaga kepercayaan jamaah tanpa praktik bisnis yang merugikan.</p></br>
+    <p>Untuk informasi lebih lanjut kunjungi: <a href="https://retali.id/" target="_blank">retali.id</a></p>
+
+    <div class="product-list">
+      <div class="product">
+        <h3>Umrah Reguler</h3>
+        <p>Paket umrah 9-10 hari dengan fasilitas hotel bintang 3 atau 4, pesawat nyaman, dan bimbingan penuh.</p>
+      </div>
+      <div class="product">
+        <h3>Umrah Plus</h3>
+        <p>Paket umrah sekaligus wisata halal ke Turki, Aqsa, Cairo, atau Dubai dengan hotel bintang 4/5.</p>
+      </div>
+      <div class="product">
+        <h3>Umrah Ramadhan</h3>
+        <p>Paket ibadah khusus Ramadhan, mulai dari awal, tengah, hingga i’tikaf di 10 hari terakhir.</p>
+      </div>
+      <div class="product">
+        <h3>Haji Furoda</h3>
+        <p>Paket Haji Prioritas menggunakan visa Furoda dengan fasilitas eksklusif dan kepastian keberangkatan.</p>
+      </div>
+    </div>
+
+    <div class="slides-container">
+      <iframe src="https://drive.google.com/file/d/1HiBm3UzPP1hoH-xDAcaZNxJec-d7cmXq/preview" width="960" height="569" allow="autoplay"></iframe>
     </div>
   </div>
 
